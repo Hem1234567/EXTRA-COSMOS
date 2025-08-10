@@ -1,6 +1,56 @@
 @import "tailwindcss";
 
+/* Cosmic Studio Design System - Space Theme */
+:root {
+  --background: 0 0% 2%;
+  --foreground: 0 0% 98%;
+  --card: 0 0% 4%;
+  --card-foreground: 0 0% 98%;
+  --popover: 0 0% 4%;
+  --popover-foreground: 0 0% 98%;
+  --primary: 0 0% 98%;
+  --primary-foreground: 0 0% 2%;
+  --secondary: 0 0% 8%;
+  --secondary-foreground: 0 0% 98%;
+  --muted: 0 0% 8%;
+  --muted-foreground: 0 0% 65%;
+  --accent: 240 100% 50%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+  
+  --input: 0 0% 15%;
+  --ring: 240 100% 50%;
+  --radius: 0.5rem;
+  --cosmic-blue: 240 100% 50%;
+  --cosmic-purple: 270 100% 50%;
+  --cosmic-glow: 200 100% 70%;
+  --helmet-reflection: 0 0% 90%;
+  --glitch-primary: 120 100% 50%;
+  --glitch-secondary: 300 100% 50%;
+}
 
+.dark {
+  --background: 0 0% 2%;
+  --foreground: 0 0% 98%;
+  --card: 0 0% 4%;
+  --card-foreground: 0 0% 98%;
+  --popover: 0 0% 4%;
+  --popover-foreground: 0 0% 98%;
+  --primary: 0 0% 98%;
+  --primary-foreground: 0 0% 2%;
+  --secondary: 0 0% 8%;
+  --secondary-foreground: 0 0% 98%;
+  --muted: 0 0% 8%;
+  --muted-foreground: 0 0% 65%;
+  --accent: 240 100% 50%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 0 0% 15%;
+  --input: 0 0% 15%;
+  --ring: 240 100% 50%;
+}
 
 @layer base {
   * {
@@ -8,7 +58,7 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 16px;
-    color: hsl(var(--text));
+    color: hsl(var(--foreground));
   }
 
   html {
